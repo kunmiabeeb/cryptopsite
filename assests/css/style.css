@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* color variable */
+:root{
+    --primary-color: #151618;
+    --secondary-color: #30ae69;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+/* navbar */
+.navbar{
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 1rem
+}
+.navbar ul li {
+    color: white;
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar ul li a:hover::before{
+    
+}
+
+.navbar .logo{
+    color: blue;
+}
+.navbar a{
+    color: var(--white-color)
+}
+.navbar .logo{
+    color: var(--white-color);
+}
+/* banner */
+#banner{
+    background-image: url(/assests/img/CRYPTO-background.png);
+    background-size: cover; 
+    background-position: center center;
+    height: 80vh;
+}
+
+#banner .container{
+    color: white;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#banner .container .text-cont h2{
+    font-size: 4rem;
+}
+#banner .container .text-cont h3{
+    font-size: 2.6rem;
+}
+#banner .container .text-cont .btn{
+    background: var(--black-color);
+    color: var(--white-color);
+    border: none;
+    padding: 1.3rem 3rem;
+}
+
+#banner .container .text-cont .btn{
+    background-color: var(--black-color);
+    color: var(--white-color);
+    box-shadow: 0 0.2rem 0.4rem var(--white-color);
+}
+/* How it works */
+#how{
+    text-align: center;
+    padding: 2rem
+}
+#how .container{
+    display: flex;
+}
+
